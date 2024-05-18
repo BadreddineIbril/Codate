@@ -1,6 +1,18 @@
-# Codate
+<div>
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="src/assets/images/rounded-logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Welcome to Codate 👋! **Codate** is a developer-friendly tool that simplifies date formatting across multiple programming languages. Whether you're working with JavaScript, Python, Java, C#, Ruby, PHP, Swift, Kotlin, Go, or Rust, Codate helps you generate the perfect date format code snippet effortlessly.
+  <h1>Codate</h1>
+
+  <p>
+    Welcome to Codate 👋! Codate is a developer-friendly tool that simplifies date formatting across multiple programming languages. Whether you're working with JavaScript, Python, Java, C#, Ruby, PHP, Swift, Kotlin, Go, or Rust, 
+    Codate helps you generate the perfect date format code snippet effortlessly.
+    <br />
+    <br />
+    <a href="https://codate.io" target="_blank"><strong>Try it Now »</strong></a>
+  </p>
+</div>
 
 <br />
 
