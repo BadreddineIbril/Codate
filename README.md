@@ -16,6 +16,9 @@
 
 <br />
 
+<img src="src/assets/images/preview.png" alt="Logo" width="100%">
+
+
 ## Features
 
 - <b>Multi-language Support:</b> Generate date format code snippets for `JavaScript`, `Python`, `Java`, `C#`, `Ruby`, `PHP`, `Swift`, `Kotlin`, `Go`, and `Rust`.
