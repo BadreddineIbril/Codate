@@ -55,4 +55,4 @@ Got feedback or ideas? We'd love to hear from you! Open an issue or pull request
 <br />
 
 ## License
-MIT License. See the [LICENSE]([url](https://github.com/BadreddineIbril/Codate/blob/main/LICENSE)) file for more details.
+MIT License. See the [LICENSE](https://github.com/BadreddineIbril/Codate/blob/main/LICENSE) file for more details.
