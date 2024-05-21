@@ -10,7 +10,7 @@ export default function Footer() {
           <img src={Logo} alt="Codate Logo" />
         </div>
         <p>
-          Developer by{" "}
+          Developed by{" "}
           <a href="https://bibril.com/" target="_blank">
             @Badreddine Ibril
           </a>
