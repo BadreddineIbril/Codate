@@ -702,6 +702,9 @@
           font-size: 13px;
           color: var(--gray-500);
         }
+        &:hover {
+          translate: 0 -0.5em;
+        }
       }
     }
   }

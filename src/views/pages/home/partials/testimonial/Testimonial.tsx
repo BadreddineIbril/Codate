@@ -15,7 +15,12 @@ export default function Testimonial() {
       <div className="testimonial-box">
         {
           Reviews.map((item, i) => (
-            <div className="review-card" key={i}>
+            <a 
+              className="review-card" 
+              key={i} 
+              href={"https://www.producthunt.com/posts/codate?comment="+item.comment_code} 
+              target="_blank"
+            >
               <div className="head">
                 <div className="owner">
                   <img src={item.img} alt={item.name} className="picture" />
@@ -29,7 +34,7 @@ export default function Testimonial() {
                 <article>{item.review}</article>
                 <span className="date">May 24, 2024</span>
               </div>
-            </div>
+            </a>
           ))
         }
       </div>
