@@ -6,6 +6,7 @@ import Faq from "./partials/faq/Faq";
 import WhyUs from "./partials/why-us/WhyUs";
 import Features from "./partials/features/Features";
 import HowToUse from "./partials/how-to-use/HowToUse";
+import Testimonial from "./partials/testimonial/Testimonial";
 
 export default function Index() {
   return (
@@ -16,6 +17,7 @@ export default function Index() {
       <Features />
       <HowToUse />
       <WhyUs />
+      <Testimonial />
       <Faq />
     </div>
   )

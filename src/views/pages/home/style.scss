@@ -646,6 +646,68 @@
       }
     }
   }
+  /* Testimonial */
+  .testimonial-container {
+    margin: 5em 10%;
+    .testimonial-box {
+      margin: 5em 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3em;
+      .review-card {
+        padding: 2.5em;
+        box-shadow: rgba(123, 123, 123, 0.1) 0px 4px 12px;
+        border-radius: 2em;
+        .head {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .owner {
+            display: flex;
+            gap: 1em;
+            .picture {
+              width: 40px;
+              height: 40px;
+              object-fit: cover;
+              clip-path: circle();
+            }
+            .info {
+              line-height: 130%;
+              span {
+                color: var(--gray-500);
+                font-size: 13px;
+              }
+            }
+          }
+        }
+        .review-content {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          height: 80%;
+        }
+        article {
+          margin: 2em 0;
+          font-size: 14px;
+          line-height: 180%;
+          color: var(--gray-500);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+        .date {
+          font-size: 13px;
+          color: var(--gray-500);
+        }
+        &:hover {
+          translate: 0 -0.5em;
+        }
+      }
+    }
+  }
 }
 
 // -- Section Head --
