@@ -69,5 +69,87 @@ Got feedback or ideas? We'd love to hear from you! Open an issue or pull request
 
 <br />
 
+## Contribute
+👾 COD-1337: Hey there, fellow coder! Ready to dive into the world of Codate contributions? Let's embark on this adventure together!
+
+<div class="contribute" align="center">
+  <img src="https://lh3.googleusercontent.com/proxy/qM0-3XcZ2bs2RqRDH50y4ISvpxgEQdMojmGKZxWCiJfnnnNJd8pPc1mcaNaLeGPXk5fQ8bZ1SeOX9J3u0t7Kb1ElBSnN-rzq6ryMTHYyXDkKWZYxWnGrI6piJbHzhS_TUNFHy3J-mLZGErvy94SEQZErlOhHukvHdjw" alt="Logo" width="100%">
+</div>
+
+#### Step 1: Fork and Clone the Repository
+1. **Fork the Repo**:
+   - Hit that `Fork` button up top to snag your own copy of the repo.
+
+2. **Clone Your Fork**:
+   - Fire up your terminal and type:
+     
+     ```bash
+     git clone https://github.com/BadreddineIbril/Codate.git
+     cd Codate
+     ```
+
+#### Step 2: Create a New Branch
+Stay organized with a fresh branch:
+
+```bash
+git checkout -b COD-<index>
+```
+
+#### Step 3: Add the New Language
+1. **Navigate to the Language Data File**:
+   - Open `core/data/languages/index.ts`.
+
+2. **Add the New Language**:
+   - Pop a new entry into the `LANGUAGES` array.
+   - Don't forget to get the language icons from [Devicon](https://devicon.dev/) for a more visually appealing display.
+  
+     ```typescript
+     {
+       id: "lang_id",
+       name: "Language Name",
+       icon: "URL_to_language_icon",
+     }
+     ```
+
+#### Step 4: Add Date Format Functions for the New Language
+1. **Navigate to the Date Formats File**:
+   
+   - Open `core/data/date-formats/index.ts`.
+
+2. **Add Function Implementations**:
+   - For each date format, find its file under `core/data/date-formats/formats/`.
+   - Now, add the function for the new language. For instance, for `DD/MM/YYYY HH:mm`:
+     
+     ```typescript
+     export const DDMMYYYY_HHmm: FunctionDefinition[] = [
+       {
+        language_id: "your_new_language_id",
+        function: ` // Your awesome function goes here! `;
+       },
+       ...
+     ];
+     ```
+
+#### Step 5: Commit Your Changes
+1. **Stage and Commit**:
+   
+   ```bash
+   git add .
+   git commit -m "Added magic ✨"
+   ```
+
+3. **Push Your Branch**:
+   
+   ```bash
+   git push origin COD<index>
+   ```
+
+#### Step 6: Create a Pull Request
+1. **Open a PR**:
+   - Head over to the original Codate repo.
+   - Click "Compare & pull request" and give us a heads-up on your changes.
+
+<br />
+
 ## License
 MIT License. See the [LICENSE](https://github.com/BadreddineIbril/Codate/blob/main/LICENSE) file for more details.
