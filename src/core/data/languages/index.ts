@@ -55,4 +55,9 @@ export const LANGUAGES: Language[] = [
     name: "Rust",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
   },
+  {
+    id: "dart",
+    name: "Dart",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg",
+  },
 ];
