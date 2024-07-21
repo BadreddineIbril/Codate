@@ -156,4 +156,21 @@ export const MMMMDDYYYY_comma: FunctionDefinition[] = [
   // Result: "May 01, 2024"
   `,
   },
+  {
+    language_id: "dart",
+    function: `
+  // add intl package to dependencies:
+  // $ dart pub add intl
+  import 'package:intl/intl.dart';
+
+  void main() {
+    var date = DateTime.now();
+    var formatter = DateFormat('MMMM dd, yyyy');
+    var formattedDate = formatter.format(date);
+    print(formattedDate);
+  }
+
+  // Result: "July 21, 2024"
+  `,
+  },
 ];
