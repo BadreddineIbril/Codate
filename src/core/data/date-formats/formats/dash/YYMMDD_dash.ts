@@ -158,4 +158,22 @@ export const YYMMDD_dash: FunctionDefinition[] = [
   // Result: "24-05-01"
   `,
   },
+
+  {
+    language_id: "dart",
+    function: `
+  // add intl package to dependencies:
+  // $ dart pub add intl
+  import 'package:intl/intl.dart';
+
+  void main() {
+    var date = DateTime.now();
+    var formatter = DateFormat('yy-MM-dd');
+    var formattedDate = formatter.format(date);
+    print(formattedDate);
+  }
+
+  // Result: "24-07-21"
+  `,
+  },
 ];

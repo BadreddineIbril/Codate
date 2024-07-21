@@ -158,4 +158,21 @@ export const DDMMYYYY_dash: FunctionDefinition[] = [
   // Result: "01-05-2024"
   `,
   },
+  {
+    language_id: "dart",
+    function: `
+  // add intl package to dependencies:
+  // $ dart pub add intl
+  import 'package:intl/intl.dart';
+
+  void main() {
+    var date = DateTime.now();
+    var formatter = DateFormat('dd-MM-yyyy');
+    var formattedDate = formatter.format(date);
+    print(formattedDate);
+  }
+
+  // Result: "21-07-2024"
+  `,
+  },
 ];
