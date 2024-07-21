@@ -157,4 +157,21 @@ export const MMMYYYY_empty: FunctionDefinition[] = [
   // Result: "May 2024"
   `,
   },
+  {
+    language_id: "dart",
+    function: `
+  // add intl package to dependencies:
+  // $ dart pub add intl
+  import 'package:intl/intl.dart';
+
+  void main() {
+    var date = DateTime.now();
+    var formatter = DateFormat('MMMM yyyy');
+    var formattedDate = formatter.format(date);
+    print(formattedDate);
+  }
+
+  // Result: "July 2024"
+  `,
+  },
 ];

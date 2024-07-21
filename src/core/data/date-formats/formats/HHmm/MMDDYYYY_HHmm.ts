@@ -160,4 +160,21 @@ export const MMDDYYYY_HHmm: FunctionDefinition[] = [
   // Result: "05/01/2024 00:00"
   `,
   },
+  {
+    language_id: "dart",
+    function: `
+  // add intl package to dependencies:
+  // $ dart pub add intl
+  import 'package:intl/intl.dart';
+
+  void main() {
+    var date = DateTime.now();
+    var formatter = DateFormat('MM/dd/yyyy HH:mm');
+    var formattedDate = formatter.format(date);
+    print(formattedDate);
+  }
+
+  // Result: "07/21/2024 07:34"
+  `,
+  },
 ];

@@ -158,4 +158,21 @@ export const MMDDYY_slash: FunctionDefinition[] = [
   // Result: "05/01/24"
   `,
   },
+  {
+    language_id: "dart",
+    function: `
+  // add intl package to dependencies:
+  // $ dart pub add intl
+  import 'package:intl/intl.dart';
+
+  void main() {
+    var date = DateTime.now();
+    var formatter = DateFormat('MM/dd/yy');
+    var formattedDate = formatter.format(date);
+    print(formattedDate);
+  }
+
+  // Result: "07/21/24"
+  `,
+  },
 ];
