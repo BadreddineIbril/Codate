@@ -55,4 +55,9 @@ export const LANGUAGES: Language[] = [
     name: "Rust",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
   },
+  {
+    id: "sh",
+    name: "Bash",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
+  },
 ];
