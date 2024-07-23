@@ -158,4 +158,16 @@ export const DDMMYY_dash: FunctionDefinition[] = [
   // Result: "01-05-24"
   `,
   },
+  {
+    language_id: "sh",
+    function: `
+    #!/bin/bash
+    getDateFormat() {
+      local date=$(date +"%d-%m-%y")
+      echo "$date"
+    }
+    
+    # Result: "01-05-24"
+  `,
+  }
 ];

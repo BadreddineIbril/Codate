@@ -164,4 +164,16 @@ export const MMMDDYYYY_comma: FunctionDefinition[] = [
   // Result: "May 01, 2024"
   `,
   },
+  {
+    language_id: "sh",
+    function: `
+    #!/bin/bash
+    getDateFormat() {
+      local date=$(date +"%b %d, %Y")
+      echo "$date"
+    }
+    
+    # Result: "May 01, 2024"
+  `,
+  },
 ];
