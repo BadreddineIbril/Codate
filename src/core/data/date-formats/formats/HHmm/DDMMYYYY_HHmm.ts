@@ -174,7 +174,7 @@ export const DDMMYYYY_HHmm: FunctionDefinition[] = [
     print(formattedDate);
   }
 
-  // Result: "21/07/2024 07:34"
+  // Result: "01/05/2024 00:00"
   `,
   },
 ];

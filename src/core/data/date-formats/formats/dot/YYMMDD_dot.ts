@@ -165,14 +165,17 @@ export const YYMMDD_dot: FunctionDefinition[] = [
   // $ dart pub add intl
   import 'package:intl/intl.dart';
 
-  void main() {
+  String getDateFormat() {
     var date = DateTime.now();
     var formatter = DateFormat('yy.MM.dd');
-    var formattedDate = formatter.format(date);
-    print(formattedDate);
+    return formatter.format(date);
   }
 
-  // Result: "24.07.21"
+  void main() {
+    print(getDateFormat());
+  }
+
+  // Result: "24.05.01"
   `,
   },
 ];
