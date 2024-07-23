@@ -161,4 +161,16 @@ export const DDMMYYYY_empty: FunctionDefinition[] = [
   // Result: "01 May 2024"
   `,
   },
+  {
+    language_id: "sh",
+    function: `
+    #!/bin/bash
+    getDateFormat() {
+      local date=$(date +"%d %b %Y")
+      echo "$date"
+    }
+    
+    # Result: "01 May 2024"
+  `,
+  },
 ];

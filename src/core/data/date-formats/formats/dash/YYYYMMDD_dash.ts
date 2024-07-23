@@ -158,4 +158,16 @@ export const YYYYMMDD_dash: FunctionDefinition[] = [
   // Result: "2024-05-01"
   `,
   },
+  {
+    language_id: "sh",
+    function: `
+    #!/bin/bash
+    getDateFormat() {
+      local date=$(date +"%Y-%m-%d")
+      echo "$date"
+    }
+    
+    # Result: "2024-05-01"
+  `,
+  },
 ];

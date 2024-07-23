@@ -160,4 +160,16 @@ export const DDMMYYYY_HHmm: FunctionDefinition[] = [
   // Result: "01/05/2024 00:00"
   `,
   },
+  {
+    language_id: "sh",
+    function: `
+    #!/bin/bash
+    getDateFormat() {
+      local date=$(date +"%d/%m/%Y %H:%M")
+      echo "$date"
+    }
+    
+    # Result: "01/05/2024 00:00"
+  `,
+  },
 ];
